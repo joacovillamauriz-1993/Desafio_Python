@@ -1,0 +1,9 @@
+INTEGRANTES: Joaquin Villalobos y Lola Bonet
+TEMA: Modulos, pip y Pytest
+
+- El ejemplo de "test_operaciones" demuestra que el Pytest te permite validar que la función que has creado devuelve el valor esperado.
+- Se ejecuta con el comando "Pytest", previa instalación con "pip install pytest"
+- En el código esperabamos un error en el "test_suma_1" ya que la suma de los valores la asignamos como 100 cuando en realidad debió ser 50. En cambio
+en el "test_suma_2" el resultado esperado coincide con el real, por ende el Pytest dió exitoso.
+- ¿Cuál creen que es el comportamiento de Pytest si uno de los "n" test falla? ¿Evalua el siguiente o finaliza tipo "break"?
+    R: Pytest ejecuta cada prueba independientemente del resultado de las otras.
